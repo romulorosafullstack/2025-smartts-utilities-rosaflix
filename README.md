@@ -47,6 +47,10 @@
 2. Instalar Dependências de Desenvolvimento do Projeto: ````npm install```
 3. Inicializar/Rodar o Projeto Local: ````npm run dev```
 
+### Libraries Instaladas no Projeto:
+1. Criação de Rotas: ````npm i react-router-dom```
+2. Criação de CSS in JS: ````npm i styled-components```
+
 #### OBS.:
 A estrutura inicial desse App foi criada utilizando Vite, uma Ferramenta de Build muito difundidad entre devs, seguindo uma das indicações do próprio React, conforme artigo abaixo:
 [Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch#vite)
