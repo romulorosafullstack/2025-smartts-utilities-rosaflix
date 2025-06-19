@@ -62,4 +62,4 @@ A criação dessa mesma estrutura através do comando nativo React ```create-rea
 ---
 
 ## Arquitetura ITCSS na Estruturação dos Estilos do Projeto - Observações:
-N parte de estilização foi adotada a [Arquitetura ITCSS](https://developer.helpscout.com/seed/glossary/itcss/) junto ao uso de [Styled Components (CSS in JS)](https://styled-components.com/) para que já esteja preparado quanto a uma melhor manutenção e escalibilidade.
+Quanto a estilização foi adotada a [Arquitetura ITCSS](https://developer.helpscout.com/seed/glossary/itcss/)  junto ao uso de  [Styled Components (CSS in JS)](https://styled-components.com/)  para que já esteja preparado quanto a uma melhor manutenção e escalibilidade.
