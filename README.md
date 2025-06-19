@@ -12,12 +12,11 @@
 [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)](#)
 [![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=fff)](#)
-[![React Table](https://img.shields.io/badge/React%20Table-FF4154?logo=reacttable&logoColor=fff)](#)
-[![React Query](https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=fff)](#)
+[![React Table](https://img.shields.io/badge/React%20Table-FF4154?logo=reacttable&logoColor=fff)](#)<br>
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)<br>
 [![styled-components](https://img.shields.io/badge/styled--components-DB7093?logo=styledcomponents&logoColor=fff)](#)
-[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)<br>
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
 
 ### Back-End
@@ -40,7 +39,7 @@
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](#)
 
 ### Read.Me
-[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)<br>
 
 ---
 
@@ -51,18 +50,18 @@
 
 ## Libraries Instaladas no Projeto:
 1. Lib para Criação de Rotas: [```npm i react-router-dom```](https://www.npmjs.com/package/react-router-dom)
-2. Lib para Criação de Estilos CSS in JS: [```npm i styled-components```](https://www.npmjs.com/package/styled-components)
+2. Lib para Criação de Estilos CSS in JS: [```npm i styled-components```](https://www.npmjs.com/package/styled-components)<br>
 
 ---
 
 ## Uso de Ferramenta de Build na Criação da Estrutura do Projeto - Observações:
-A criação da estrutura inicial do projeto foi realizada com [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vite.dev/guide/#scaffolding-your-first-vite-project), uma das Ferramentas de Build indicadas pelo do próprio [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/), conforme artigo abaixo:<br>
+A criação da estrutura inicial do projeto foi realizada com [Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project), uma das Ferramentas de Build indicadas pelo do próprio [React](https://react.dev/), conforme artigo abaixo:<br>
 [Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch#vite)
 
-A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/), conforme artigo abaixo:<br>
-[Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)
+A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio [React](https://react.dev/), conforme artigo abaixo:<br>
+[Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)<br>
 
 ---
 
-## Arquitetura ITCSS para Melhor Estruturação dos Estilos do Projeto - Observações:
-Foi adotada a metodologia ITCSS junto ao uso de Styled Components (CSS in JS) no Projeto para que já esteja preparado quanto a uma melhor manutenção e escalibilidade.
+## Arquitetura ITCSS na Estruturação dos Estilos do Projeto - Observações:
+N parte de estilização foi adotada a [Arquitetura ITCSS](https://developer.helpscout.com/seed/glossary/itcss/) junto ao uso de [Styled Components (CSS in JS)](https://styled-components.com/) para que já esteja preparado quanto a uma melhor manutenção e escalibilidade.
