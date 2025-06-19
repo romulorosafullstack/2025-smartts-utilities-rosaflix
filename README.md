@@ -55,11 +55,9 @@
 ---
 
 ## Uso de Ferramenta de Build na Criação da Estrutura do Projeto - Observações:
-A criação da estrutura inicial do projeto foi realizada com [Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project), uma das Ferramentas de Build indicadas pelo do próprio [React](https://react.dev/), conforme artigo abaixo:<br>
-[Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch#vite)
+A criação da estrutura inicial do projeto foi realizada com [Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project), uma das Ferramentas de Build indicadas pelo do próprio [React](https://react.dev/), conforme o seguinte artigo: [Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch#vite)
 
-A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio [React](https://react.dev/), conforme artigo abaixo:<br>
-[Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)<br>
+A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio [React](https://react.dev/), conforme o seguinte artigo: [Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)<br>
 
 ---
 
