@@ -19,10 +19,12 @@
 [![styled-components](https://img.shields.io/badge/styled--components-DB7093?logo=styledcomponents&logoColor=fff)](#)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)<br>
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)<br>
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](#)
 
 ### Back-End
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
+
+### Ferramenta de Build
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](#)
 
 ### Versionamento de Código
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
@@ -42,18 +44,25 @@
 
 ---
 
-### Para Trabalhar com o Projeto:
+## Para Trabalhar com o Projeto:
 1. Fazer Download do Repositório Remoto do Projeto: [Teste Romulo Rosa - Smartts Utilities - 2025](https://github.com/romulorosafullstack/2025-smartts-utilities-rosaflix)
 2. Instalar Dependências de Desenvolvimento do Projeto: ```npm install```
 3. Inicializar/Rodar o Projeto Local: ```npm run dev```
 
-### Libraries Instaladas no Projeto:
-1. Criação de Rotas: ```npm i react-router-dom```
-2. Criação de CSS in JS: ```npm i styled-components```
+## Libraries Instaladas no Projeto:
+1. Lib para Criação de Rotas: [```npm i react-router-dom```](https://www.npmjs.com/package/react-router-dom)
+2. Lib para Criação de Estilos CSS in JS: [```npm i styled-components```](https://www.npmjs.com/package/styled-components)
 
-#### Estrutura Inicial do Projeto - Observações:
-A criação da estrutura inicial do projeto foi realizada com Vite, uma das Ferramentas de Build indicadas pelo do próprio React, conforme artigo abaixo:<br>
+---
+
+## Uso de Ferramenta de Build na Criação da Estrutura do Projeto - Observações:
+A criação da estrutura inicial do projeto foi realizada com [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vite.dev/guide/#scaffolding-your-first-vite-project), uma das Ferramentas de Build indicadas pelo do próprio [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/), conforme artigo abaixo:<br>
 [Build a React app from Scratch](https://react.dev/learn/build-a-react-app-from-scratch#vite)
 
-A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio React, conforme artigo abaixo:<br>
+A criação dessa mesma estrutura através do comando nativo React ```create-react-app``` é considerada obsoleta pelo próprio [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/), conforme artigo abaixo:<br>
 [Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)
+
+---
+
+## Arquitetura ITCSS para Melhor Estruturação dos Estilos do Projeto - Observações:
+Foi adotada a metodologia ITCSS junto ao uso de Styled Components (CSS in JS) no Projeto para que já esteja preparado quanto a uma melhor manutenção e escalibilidade.
