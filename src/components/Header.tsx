@@ -6,7 +6,7 @@ const Header__Wrapper = styled.header`
   background-color: blue;
   display: flex;
   justify-content: center;
-  height: 30rem;
+  height: 22rem;
   width: 100%;
 `
 
