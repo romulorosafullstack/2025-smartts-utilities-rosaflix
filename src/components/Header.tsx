@@ -10,10 +10,14 @@ const Header__Wrapper = styled.header`
   width: 100%;
 `
 
+const Header__Logo = styled.img`
+  height: 15rem;
+`
+
 export function Header(){
   return(
     <Header__Wrapper>
-      <img src={RosaflixWhite} alt="Rosaflix Logo" height="150px"/>
+      <Header__Logo src={RosaflixWhite} alt="Rosaflix Logo"/>
     </Header__Wrapper>
   )
 }
