@@ -14,7 +14,7 @@ const Footer__Container = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 1rem;
   width: 192rem;
 `
 
@@ -38,7 +38,6 @@ const Development__Container = styled.div`
   display: flex;
   gap: 1rem;
   justify-content: flex-start;
-  padding: 1rem;
 `
 
 const Brand__Container = styled.div`
@@ -46,7 +45,6 @@ const Brand__Container = styled.div`
   display: flex;
   gap: 1rem;
   justify-content: flex-start;
-  padding: 1rem;
 `
 
 const Footer__Title = styled.h4`
@@ -66,7 +64,7 @@ export function Footer(){
     <Footer__Wrapper>
       <Footer__Container>
         <Copyright__Wrapper>
-          <img src={RosaflixWhite} alt="Rosaflix Logo" height="20rem"/>
+          <img src={RosaflixWhite} alt="Rosaflix Logo" height="30px"/>
           <Copyright__Text>&copy;2025 Todos os direitos reservados.</Copyright__Text>
         </Copyright__Wrapper>
 
