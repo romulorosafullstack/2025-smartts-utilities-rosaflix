@@ -14,7 +14,7 @@ const Header__Logo = styled.img`
   height: 15rem;
 `
 
-export function Header(){
+export default function Header(){
   return(
     <Header__Wrapper>
       <Header__Logo src={RosaflixWhite} alt="Rosaflix Logo"/>
