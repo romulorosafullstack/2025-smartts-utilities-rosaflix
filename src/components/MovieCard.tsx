@@ -1,11 +1,11 @@
-interface MovieProps{
+interface MovieCardProps{
   title: string;
   year: number;
   director: string;
   genre: string
 }
 
-export default function Movie({title, year, director, genre}: MovieProps){
+const MovieCard = ({title, year, director, genre}: MovieCardProps) => {
   return(
     <div>
       <h1>Título: {title}</h1>
@@ -15,3 +15,5 @@ export default function Movie({title, year, director, genre}: MovieProps){
     </div>
   )
 }
+
+export default MovieCard

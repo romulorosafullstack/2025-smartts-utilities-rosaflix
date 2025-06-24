@@ -59,7 +59,7 @@ const Copyright__Text = styled.p`
 `
 
 
-export function Footer(){
+const Footer = () => {
   return(
     <Footer__Wrapper>
       <Footer__Container>
@@ -82,3 +82,5 @@ export function Footer(){
     </Footer__Wrapper>
   )
 }
+
+export default Footer

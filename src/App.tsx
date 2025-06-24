@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import CadastrarFilme from "./pages/CadastrarFilme/CadastrarFilme";
+
 
 const App__Wrapper = styled.div`
   background-color: #000;
@@ -19,15 +20,16 @@ const App__Container = styled.div`
   width: 100vw;
 `
 
-
-export default function App() {
+const App = () => {
   return (
     <App__Wrapper>
       <App__Container>
         <Header />
-        <Main />
+        <CadastrarFilme />
         <Footer />
       </App__Container>
     </App__Wrapper>
   )
 }
+
+export default App

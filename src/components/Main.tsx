@@ -1,21 +1,27 @@
-import { FormRegisterMovie } from "./FormRegisterMovie";
-import Movie from "./Movie";
-
-
+import React from "react";
 import styled from "styled-components";
 
-const Main__Wrapper = styled.header`
+const Main__Wrapper = styled.main`
   padding: 3rem 15rem;
   width: 100%;
 `
 
-export function Main(){
+const Main__Title = styled.h2`
+  font-size: 1.8rem;
+  font-weight: 700;
+`
+
+interface MainProps extends React.PropsWithChildren{
+  title: string;
+}
+
+const Main: React.FC<MainProps> = ({title, children}) => {
   return(
     <Main__Wrapper>
-      <Movie title="Star Wars" year={1980} director="George Lucas" genre="Ficção" />
-      <Movie title="Star Wars 2" year={1980} director="Spilberg" genre="Ficção" />
-      <Movie title="Star Wars 3" year={1980} director="Stallone" genre="Ficção"/>
-      <FormRegisterMovie />
+      <Main__Title>{title}</Main__Title>
+      {children}
     </Main__Wrapper>
   )
 }
+
+export default Main;
