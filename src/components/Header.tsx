@@ -13,7 +13,7 @@ const Header__Wrapper = styled.header`
 export function Header(){
   return(
     <Header__Wrapper>
-        <img src={RosaflixWhite} alt="Rosaflix Logo" />
+      <img src={RosaflixWhite} alt="Rosaflix Logo" height="150px"/>
     </Header__Wrapper>
   )
 }
