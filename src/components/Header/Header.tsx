@@ -17,11 +17,11 @@ const Header__Container = styled.div`
   justify-content: space-between;
   padding: 1.2rem;
   width: 100%;
-  @media (min-width: 768px) {
+  @media (min-width: 1140px) {
+    border: 2px solid green;
     padding: 2.4rem 0;
-    width: 192rem;
+    width: 113.4rem;
   }
-
 `
 
 const Header__LogoInput = styled.div`
