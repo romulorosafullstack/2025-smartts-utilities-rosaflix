@@ -15,7 +15,7 @@ const App__Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100vw;
 `
 
