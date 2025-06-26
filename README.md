@@ -50,7 +50,8 @@
 
 ## Libraries Instaladas no Projeto:
 1. Lib para Criação de Rotas: [```npm i react-router-dom```](https://www.npmjs.com/package/react-router-dom)
-2. Lib para Criação de Estilos CSS in JS: [```npm i styled-components```](https://www.npmjs.com/package/styled-components)<br>
+2. Lib para Criação de Estilos CSS in JS: [```npm i styled-components```](https://www.npmjs.com/package/styled-components)
+2. Lib para Interface de Usuário : [```npm i antd```](https://www.npmjs.com/package/antd)<br>
 
 ---
 
